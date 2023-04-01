@@ -1,0 +1,48 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: blue;
+    color: white;
+}
+
+.navbar{
+    padding: 0 143px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.nav-img img, h2{
+    margin: 10px;
+}
+.nav-img img{
+    height: 51px;
+}
+
+.nav-items ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-items ul a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+}
+
+
+
+@media only screen and ( min-width: 750px){
+    .navbar{
+        margin: 0 10px;
+    }
+}
